@@ -3,3 +3,11 @@
 @theme {
   --breakpoint-d: 1365px;
 }
+
+html {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+body {
+  background-color: #F5FDFF;
+}
