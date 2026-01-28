@@ -7,7 +7,7 @@ type Props = {
   isSelected: boolean
 }
 
-export default function Registro({ id, nombre, fecha, seleccionado, isSelected }: Props) {
+export default function Registro({ id, nombre, fecha, isSelected, seleccionado }: Props) {
   console.log(isSelected);
 
   return (
@@ -19,10 +19,11 @@ export default function Registro({ id, nombre, fecha, seleccionado, isSelected }
         : 'bg-[#E6FAFE] hover:bg-sky-100'
       }
       `}
+      onMouseDown={() => seleccionado(id)}
     >
-      <ItemRegistro img={"number"} label={id.toString()} width={150} seleccionado={() => seleccionado(id)} />
-      <ItemRegistro img={"user"} label={nombre} width={500} seleccionado={() => seleccionado(id)} />
-      <ItemRegistro img={"fecha"} label={fecha} width={500} seleccionado={() => seleccionado(id)} />
+      <ItemRegistro img={"number"} label={id.toString()} width={150} />
+      <ItemRegistro img={"user"} label={nombre} width={500} />
+      <ItemRegistro img={"fecha"} label={fecha} width={500} />
     </div>
   )
 }

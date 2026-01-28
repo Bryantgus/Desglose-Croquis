@@ -10,14 +10,13 @@ type Props = {
   img: keyof typeof imgSelected
   label: string
   width: number
-  seleccionado: () => void
 }
 
-export default function ItemRegistro({ img, label, width, seleccionado }: Props) {
+export default function ItemRegistro({ img, label, width }: Props) {
   return (
-    <div className='flex items-center gap-3 ' style={{ width }} onClick={seleccionado}>
-      <img src={imgSelected[img]} className='w-10 h-10' alt="icon" />
-      <p className='text-[20px] font-bold'>{label}</p>
+    <div className='flex items-center gap-3 ' style={{ width }}>
+      <img src={imgSelected[img]} className='w-10 h-10 rounded-xl' alt="icon" />
+      <p className='text-[20px] font-semibold'>{label}</p>
 
     </div>
   )
