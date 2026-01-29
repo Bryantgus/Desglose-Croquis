@@ -1,49 +1,11 @@
-import type { ventana } from '../globalContext/useData' 
-export const MOCK_P65: ventana[] = [
-  {
-    id: 1,
-    etiqueta: "Baño 1",
-    ancho: "120cm",
-    alto: "100cm",
-    caracteristicas: {
-      tipoPerfil: 'p65',
-      colorPerfil: "Blanco",
-      colorCristal: 'natural',
-      rieles: 2
-    }
-  },
-  {
-    id: 2,
-    etiqueta: "Baño 1",
-    ancho: "60cm",
-    alto: "60cm",
-    caracteristicas: {
-      tipoPerfil: 'p65',
-      colorPerfil: "Gris",
-      colorCristal: 'natural martillado',
-      rieles: 1
-    }
-  },
-  {
-    id: 3,
-    etiqueta: "Baño 1",
-    ancho: "150cm",
-    alto: "120cm",
-    caracteristicas: {
-      tipoPerfil: 'p65',
-      colorPerfil: "Negro",
-      colorCristal: 'bronze',
-      rieles: 2
-    }
-  }
-];
+import type { ventana } from "../globalContext/useData";
 
 export const MOCK_TRADICIONAL: ventana[] = [
   {
     id: 4,
     etiqueta: "Baño 1",
-    ancho: "100cm",
-    alto: "120cm",
+    ancho: "39 3/8",
+    alto: "47 1/4",
     caracteristicas: {
       tipoPerfil: 'tradicional',
       colorPerfil: "Blanco",
@@ -52,10 +14,10 @@ export const MOCK_TRADICIONAL: ventana[] = [
     }
   },
   {
-    id: 44,
+    id: 5,
     etiqueta: "VBaño 1",
-    ancho: "80cm",
-    alto: "80cm",
+    ancho: "31 1/2",
+    alto: "31 1/2",
     caracteristicas: {
       tipoPerfil: 'tradicional',
       colorPerfil: "Marrón",
@@ -64,10 +26,10 @@ export const MOCK_TRADICIONAL: ventana[] = [
     }
   },
   {
-    id: 32,
+    id: 6,
     etiqueta: "VBaño 1r",
-    ancho: "200cm",
-    alto: "150cm",
+    ancho: "78 3/4",
+    alto: "59 1/16",
     caracteristicas: {
       tipoPerfil: 'tradicional',
       colorPerfil: "Blanco",
@@ -76,10 +38,46 @@ export const MOCK_TRADICIONAL: ventana[] = [
     }
   },
   {
-    id: 1111,
+    id: 7,
     etiqueta: "Baño 1",
-    ancho: "100cm",
-    alto: "120cm",
+    ancho: "39 3/8",
+    alto: "47 1/4",
+    caracteristicas: {
+      tipoPerfil: 'tradicional',
+      colorPerfil: "Blanco",
+      colorCristal: 'natural',
+      rieles: 2
+    }
+  },
+  {
+    id: 8,
+    etiqueta: "VBaño 1",
+    ancho: "31 1/2",
+    alto: "31 1/2",
+    caracteristicas: {
+      tipoPerfil: 'tradicional',
+      colorPerfil: "Marrón",
+      colorCristal: 'bronze martillado',
+      rieles: 1
+    }
+  },
+  {
+    id: 9,
+    etiqueta: "VBaño 1r",
+    ancho: "78 3/4",
+    alto: "59 1/16",
+    caracteristicas: {
+      tipoPerfil: 'tradicional',
+      colorPerfil: "Blanco",
+      colorCristal: 'natural',
+      rieles: 3
+    }
+  },
+  {
+    id: 10,
+    etiqueta: "Baño 1",
+    ancho: "39 3/8",
+    alto: "47 1/4",
     caracteristicas: {
       tipoPerfil: 'tradicional',
       colorPerfil: "Blanco",
@@ -90,8 +88,8 @@ export const MOCK_TRADICIONAL: ventana[] = [
   {
     id: 11,
     etiqueta: "VBaño 1",
-    ancho: "80cm",
-    alto: "80cm",
+    ancho: "31 1/2",
+    alto: "31 1/2",
     caracteristicas: {
       tipoPerfil: 'tradicional',
       colorPerfil: "Marrón",
@@ -102,8 +100,8 @@ export const MOCK_TRADICIONAL: ventana[] = [
   {
     id: 12,
     etiqueta: "VBaño 1r",
-    ancho: "200cm",
-    alto: "150cm",
+    ancho: "78 3/4",
+    alto: "59 1/16",
     caracteristicas: {
       tipoPerfil: 'tradicional',
       colorPerfil: "Blanco",
@@ -111,11 +109,11 @@ export const MOCK_TRADICIONAL: ventana[] = [
       rieles: 3
     }
   },
-   {
-    id: 332,
+  {
+    id: 13,
     etiqueta: "Baño 1",
-    ancho: "100cm",
-    alto: "120cm",
+    ancho: "39 3/8",
+    alto: "47 1/4",
     caracteristicas: {
       tipoPerfil: 'tradicional',
       colorPerfil: "Blanco",
@@ -124,10 +122,10 @@ export const MOCK_TRADICIONAL: ventana[] = [
     }
   },
   {
-    id: 66,
+    id: 14,
     etiqueta: "VBaño 1",
-    ancho: "80cm",
-    alto: "80cm",
+    ancho: "31 1/2",
+    alto: "31 1/2",
     caracteristicas: {
       tipoPerfil: 'tradicional',
       colorPerfil: "Marrón",
@@ -136,63 +134,25 @@ export const MOCK_TRADICIONAL: ventana[] = [
     }
   },
   {
-    id: 55,
+    id: 15,
     etiqueta: "VBaño 1r",
-    ancho: "200cm",
-    alto: "150cm",
+    ancho: "78 3/4",
+    alto: "59 1/16",
     caracteristicas: {
       tipoPerfil: 'tradicional',
       colorPerfil: "Blanco",
       colorCristal: 'natural',
       rieles: 3
     }
-  },
-  {
-    id: 44,
-    etiqueta: "Baño 1",
-    ancho: "100cm",
-    alto: "120cm",
-    caracteristicas: {
-      tipoPerfil: 'tradicional',
-      colorPerfil: "Blanco",
-      colorCristal: 'natural',
-      rieles: 2
-    }
-  },
-  {
-    id: 121,
-    etiqueta: "VBaño 1",
-    ancho: "80cm",
-    alto: "80cm",
-    caracteristicas: {
-      tipoPerfil: 'tradicional',
-      colorPerfil: "Marrón",
-      colorCristal: 'bronze martillado',
-      rieles: 1
-    }
-  },
-  {
-    id: 33,
-    etiqueta: "VBaño 1r",
-    ancho: "200cm",
-    alto: "150cm",
-    caracteristicas: {
-      tipoPerfil: 'tradicional',
-      colorPerfil: "Blanco",
-      colorCristal: 'natural',
-      rieles: 3
-    }
-  },
-  
-  
+  }
 ];
 
 export const MOCK_P92: ventana[] = [
   {
-    id: 7,
-    etiqueta: " Baño 1 ",
-    ancho: "240cm",
-    alto: "210cm",
+    id: 16,
+    etiqueta: "Baño 1",
+    ancho: "94 1/2",
+    alto: "82 11/16",
     caracteristicas: {
       tipoPerfil: 'p92',
       colorPerfil: "Negro",
@@ -201,10 +161,10 @@ export const MOCK_P92: ventana[] = [
     }
   },
   {
-    id: 8,
-    etiqueta: " Sala",
-    ancho: "300cm",
-    alto: "200cm",
+    id: 17,
+    etiqueta: "Sala",
+    ancho: "118 1/8",
+    alto: "78 3/4",
     caracteristicas: {
       tipoPerfil: 'p92',
       colorPerfil: "Gris Anodizado",
@@ -213,10 +173,10 @@ export const MOCK_P92: ventana[] = [
     }
   },
   {
-    id: 9,
-    etiqueta: " Estudio",
-    ancho: "180cm",
-    alto: "150cm",
+    id: 18,
+    etiqueta: "Estudio",
+    ancho: "70 7/8",
+    alto: "59 1/16",
     caracteristicas: {
       tipoPerfil: 'p92',
       colorPerfil: "Negro",
@@ -225,14 +185,53 @@ export const MOCK_P92: ventana[] = [
     }
   },
   {
-    id: 10,
-    etiqueta: " Fachada",
-    ancho: "120cm",
-    alto: "250cm",
+    id: 19,
+    etiqueta: "Fachada",
+    ancho: "47 1/4",
+    alto: "98 7/16",
     caracteristicas: {
       tipoPerfil: 'p92',
       colorPerfil: "Blanco",
       colorCristal: 'natural martillado',
+      rieles: 2
+    }
+  }
+];
+
+export const MOCK_P65: ventana[] = [
+  {
+    id: 1,
+    etiqueta: "Baño 1",
+    ancho: "47 1/4",
+    alto: "39 3/8",
+    caracteristicas: {
+      tipoPerfil: 'p65',
+      colorPerfil: "Blanco",
+      colorCristal: 'natural',
+      rieles: 2
+    }
+  },
+  {
+    id: 2,
+    etiqueta: "Baño 1",
+    ancho: "23 5/8",
+    alto: "23 5/8",
+    caracteristicas: {
+      tipoPerfil: 'p65',
+      colorPerfil: "Gris",
+      colorCristal: 'natural martillado',
+      rieles: 1
+    }
+  },
+  {
+    id: 3,
+    etiqueta: "Baño 1",
+    ancho: "59 1/16",
+    alto: "47 1/4",
+    caracteristicas: {
+      tipoPerfil: 'p65',
+      colorPerfil: "Negro",
+      colorCristal: 'bronze',
       rieles: 2
     }
   }

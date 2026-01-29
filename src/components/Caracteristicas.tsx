@@ -1,6 +1,13 @@
+type Props = {
+  id: number
+}
 
-export default function Caracteristicas() {
+export default function Caracteristicas({id}: Props) {
   return (
-    <div>Caracteristicas</div>
-  )
+    <div>
+      <div>
+        <p>Color Perfil</p>
+      </div>
+    </div>
+    )
 }

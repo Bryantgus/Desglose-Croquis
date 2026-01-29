@@ -3,6 +3,7 @@ import RegistroView from './views/RegistroView'
 import VerDesgloseView from './views/VerDesgloseView';
 import EditarDesgloseView from './views/EditarDesgloseView';
 import CroquisView from './views/CroquisView';
+import './index.css'
 const width = window.innerWidth;
 const height = window.innerHeight;
 export default function Router() {

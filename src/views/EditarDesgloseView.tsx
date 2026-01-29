@@ -66,14 +66,14 @@ export default function EditarDesgloseView() {
       </div>
 
       {/*Mapeando ventanas seleccionadas por perfil */}
-      <div className='p-5 grid grid-cols-[auto_auto_auto_auto_auto] lg:grid-cols-[auto_auto_auto_auto_auto_auto] lg:h-200 items-start justify-between gap-y-5 overflow-y-auto d:h-120 h-130 mt-3 border-sky-100 rounded-xl border-4'>
+      <div className='p-5 grid grid-cols-[auto_auto_auto_auto_auto_auto] lg:grid-cols-[auto_auto_auto_auto_auto_auto_auto] lg:h-200 items-start justify-between gap-y-5 overflow-y-auto d:h-120 h-130 mt-3 border-sky-100 rounded-xl border-4'>
 
         {ventanaData.map((it: ventana) => {
           return (
             <ItemDesglose
               key={it.id}
               id={it.id}
-              modeS={'ver'}
+              modeS={'editar'}
             />
           )
         })}
