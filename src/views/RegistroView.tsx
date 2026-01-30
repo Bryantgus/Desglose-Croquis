@@ -1,4 +1,4 @@
-import logo from '/public/Logo.svg'
+import logo from '/Logo.svg'
 import fecha from '../assets/Icons/Date.svg'
 import up from '../assets/Icons/Up.svg'
 // import down from '../assets/Icons/Down.svg'

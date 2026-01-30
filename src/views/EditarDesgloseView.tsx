@@ -1,4 +1,4 @@
-import logo from '/public/Logo.svg'
+import logo from '/Logo.svg'
 import Btn from '../components/Btn'
 import { useNavigate } from 'react-router-dom';
 import useData, { type ventana } from '../globalContext/useData';

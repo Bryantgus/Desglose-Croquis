@@ -1,4 +1,4 @@
-import logo from '/public/Logo.svg'
+import logo from '/Logo.svg'
 import Btn from '../components/Btn'
 import { useNavigate } from 'react-router-dom';
 export default function VerDesgloseView() {

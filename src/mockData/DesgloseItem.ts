@@ -8,8 +8,8 @@ export const MOCK_TRADICIONAL: ventana[] = [
     alto: "47 1/4",
     caracteristicas: {
       tipoPerfil: 'tradicional',
-      colorPerfil: "Blanco",
-      colorCristal: 'natural',
+      colorPerfil: "blanco",
+      colorCristal: 'Natural L',
       rieles: 2
     }
   },
@@ -21,7 +21,7 @@ export const MOCK_TRADICIONAL: ventana[] = [
     caracteristicas: {
       tipoPerfil: 'tradicional',
       colorPerfil: "Marrón",
-      colorCristal: 'bronze martillado',
+      colorCristal: 'Bronze M',
       rieles: 1
     }
   },

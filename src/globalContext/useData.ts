@@ -10,7 +10,7 @@ export type ventana = {
   caracteristicas: {
     tipoPerfil: TipoPerfil
     colorPerfil: string
-    colorCristal: 'natural' | 'natural martillado' | 'bronze' | 'bronze martillado'
+    colorCristal: string
     rieles: number
   }
 }

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import useData from "../globalContext/useData";
 import ItemMedida from "./ItemMedida";
 import CalculoDesglose from "./CalculoDesglose";
@@ -34,28 +34,42 @@ export default function ItemDesglose({ id, modeS = 'editar' }: Props) {
     setVentana(perfilSelected, id, { [propertyName]: value })
   }
 
+  useEffect(() => {
+    console.log(mode);
+
+  }, [mode])
   const switchMode = () => {
-    setMode(mode === 'ver' ? 'editar' : 'ver')
+    const toggleMode = mode === 'ver' ? 'editar' : 'ver'
+    setMode(toggleMode)
   }
   return (
-    <div className="bg-[#e5f9fd] border border-[#474747] rounded-xl flex flex-col p-2">
+    <div className="bg-[#e5f9fd] border border-[#474747] rounded-xl flex flex-col p-2 justify-between">
       <div className="flex items-center justify-between">
-        <div className={`${modeS === 'ver' && 'cursor-not-allowed'}`}>
-          <ItemMedida label="Etiqueta" input={etiqueta!} setInput={setInput} width={120} />
+        <div className="flex ">
+
+          <div className={`${modeS === 'ver' && 'cursor-not-allowed'}`}>
+            <ItemMedida label="Etiqueta" input={etiqueta!} setInput={setInput} width={110} />
+          </div>
+
+          <div className="flex flex-col items-center justify-start">
+
+            <p className={`text-[13px] text-black font-black ${mode === 'ver' ? 'text-black' : 'text-[#e5f9fd]'}`}>P:[] C: []</p>
+
+            {location.pathname !== '/editar-desglose' &&
+              <img src={mode === 'editar' ? back : config} alt='settings' className="w-8 h-8 cursor-pointer"
+                onClick={switchMode} />}
+          </div>
         </div>
-        {location.pathname !== '/editar-desglose' &&
-          <img src={modeS === 'editar' ? config : back} alt='settings' className="w-8 h-8 mt-6 cursor-pointer"
-            onClick={switchMode} />}
       </div>
-      <div className={`flex justify-between gap-2 ${modeS === 'ver' && 'cursor-not-allowed'}`}>
+      <div className={`flex justify-between gap-2`}>
         <ItemMedida label="Ancho" input={ancho!} setInput={setInput} inputType="tel" />
         <ItemMedida label="Alto" input={alto!} setInput={setInput} inputType="tel" />
       </div>
 
-      {modeS === 'ver' ?
+      {mode === 'ver' ?
         <CalculoDesglose id={id} />
         :
-        <Caracteristicas id={id}/>
+        <Caracteristicas id={id} />
       }
 
     </div>
