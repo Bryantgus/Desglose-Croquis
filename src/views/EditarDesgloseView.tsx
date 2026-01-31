@@ -63,6 +63,10 @@ export default function EditarDesgloseView() {
               color={perfilSelected === 'p92'} width={200} height={40} />
           </div>
         </div>
+        <div className='flex items-center justify-between gap-4 cursor-pointer'>
+          <input type="number" className='border-2 border-[black] w-20 h-10 rounded-xl text-center font-bold text-xl'/>
+          <p className='font-bold text-3xl bg-sky-400 rounded-xl px-8'>+</p>
+        </div>
       </div>
 
       {/*Mapeando ventanas seleccionadas por perfil */}

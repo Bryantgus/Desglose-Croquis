@@ -53,7 +53,7 @@ export default function ItemDesglose({ id, modeS = 'editar' }: Props) {
 
           <div className="flex flex-col items-center justify-start">
 
-            <p className={`text-[13px] text-black font-black ${mode === 'ver' ? 'text-black' : 'text-[#e5f9fd]'}`}>P:[] C: []</p>
+            <p className={`mb-1 text-[13px] text-black font-black ${mode === 'editar' ? 'text-black' : 'text-[#e5f9fd]'}`}>P:[] C: []</p>
 
             {location.pathname !== '/editar-desglose' &&
               <img src={mode === 'editar' ? back : config} alt='settings' className="w-8 h-8 cursor-pointer"

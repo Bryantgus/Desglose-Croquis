@@ -9,8 +9,8 @@ export type ventana = {
   alto: string
   caracteristicas: {
     tipoPerfil: TipoPerfil
-    colorPerfil: string
-    colorCristal: string
+    colorPerfil: 'blanco' | 'negro' | 'caoba' | 'roble'
+    colorCristal: 'Natural L' | 'Natural M' | 'Bronze L' | 'Bronze M'
     rieles: number
   }
 }

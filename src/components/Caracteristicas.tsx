@@ -14,6 +14,10 @@ export default function Caracteristicas({ id }: Props) {
   if (!ventana) return null;
 
   const { colorPerfil, colorCristal } = ventana.caracteristicas;
+  const colorPerfilFormated = colorPerfil === 'blanco' ? 'white' :
+  colorPerfil === 'negro' ? 'black' : 
+  colorPerfil === 'caoba' ? '#3a2722 ' :
+  colorPerfil === 'roble' ? '	#6b4423' : ''
 
 
   return (
@@ -26,7 +30,7 @@ export default function Caracteristicas({ id }: Props) {
         <div className="w-[83.09px] flex justify-center">
           <div 
             className="w-15 h-5 rounded-sm border-2 border-[#474747] cursor-pointer" 
-            style={{ backgroundColor: colorPerfil }} 
+            style={{ backgroundColor: colorPerfilFormated }} 
           />
         </div>
       </div>
@@ -37,7 +41,7 @@ export default function Caracteristicas({ id }: Props) {
           <p className="font-bold text-[15px]">Tipo Cristal: </p>
         </div>
         <div className="w-[83.09px] flex justify-center">
-          <p className="font-black border border-[#474747] rounded-sm text-[14px] p-1 cursor-pointer">
+          <p className="font-black border border-[#474747] rounded-sm text-[12px] p-1 cursor-pointer">
             {colorCristal}
           </p>
         </div>
