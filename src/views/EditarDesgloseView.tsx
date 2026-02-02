@@ -3,19 +3,35 @@ import Btn from '../components/Btn'
 import { useNavigate } from 'react-router-dom';
 import useData, { type ventana } from '../globalContext/useData';
 import ItemDesglose from '../components/ItemDesglose';
+import { useState } from 'react';
 export default function EditarDesgloseView() {
-
+  const [cantidad, setCantidad] = useState(1)
   const store = useData();
   const { p65, tradicional, p92 } = useData()
   const perfilSelected = useData((s) => s.ventanaPerfilSelected);
   const ventanaData = perfilSelected ? store[perfilSelected] : [];
   const setVentanaPefil = useData(s => s.setVentanaPerfilSelected)
-
+  const addVentana = useData(s => s.addVentana)
   const navigate = useNavigate();
 
+  const handleAddVentana = () => {
+    console.log('🔵 handleAddVentana ejecutado')
+
+    if (!perfilSelected) {
+      alert('Por favor selecciona un tipo de ventana primero')
+      return
+    }
+    if (cantidad < 1) {
+      alert('La cantidad debe ser mayor a 0')
+      return
+    }
+    addVentana(perfilSelected, cantidad)
+    setCantidad(1)
+  }
   const setRoute = (route: string) => {
     navigate(route)
   }
+
 
   return (
     <div>
@@ -64,23 +80,31 @@ export default function EditarDesgloseView() {
           </div>
         </div>
         <div className='flex items-center justify-between gap-4 cursor-pointer'>
-          <input type="number" className='border-2 border-[black] w-20 h-10 rounded-xl text-center font-bold text-xl'/>
-          <p className='font-bold text-3xl bg-sky-400 rounded-xl px-8'>+</p>
+          <input
+            type="number"
+            min="1"
+            value={cantidad}
+            autoComplete="off"
+            onChange={(e) => setCantidad(Number(e.target.value))} className='border-2 border-[black] w-20 h-10 rounded-xl text-center font-bold text-xl' />
+          <p onClick={handleAddVentana} className='font-bold text-3xl bg-sky-400 rounded-xl px-8'>+</p>
         </div>
       </div>
 
       {/*Mapeando ventanas seleccionadas por perfil */}
-      <div className='p-5 grid grid-cols-[auto_auto_auto_auto_auto_auto] lg:grid-cols-[auto_auto_auto_auto_auto_auto_auto] lg:h-200 items-start justify-between gap-y-5 overflow-y-auto d:h-120 h-130 mt-3 border-sky-100 rounded-xl border-4'>
+      <div className='p-5 grid grid-cols-[auto_auto_auto_auto_auto_auto] lg:grid-cols-[auto_auto_auto_auto_auto_auto_auto] lg:h-400 items-start justify-between gap-y-5 overflow-y-auto d:h-120 h-130 mt-3 border-sky-100 rounded-xl border-4'>
 
-        {ventanaData.map((it: ventana) => {
-          return (
-            <ItemDesglose
-              key={it.id}
-              id={it.id}
-              modeS={'editar'}
-            />
-          )
-        })}
+        {ventanaData.length === 0 ?
+          <div className='flex items-center justify-center text-5xl'>Ninguna ventana <b> ({perfilSelected}) </b> Agregada</div>
+          :
+          ventanaData.map((it: ventana) => {
+            return (
+              <ItemDesglose
+                key={it.id}
+                id={it.id}
+                modeS={'editar'}
+              />
+            )
+          })}
       </div>
 
 

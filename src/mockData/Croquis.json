@@ -1,0 +1,1766 @@
+{
+  "GuillotineBssfSas": [
+    {
+      "bin_id": 1,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 21.125,
+          "height": 38.5,
+          "id": "8"
+        },
+        {
+          "x": 21.125,
+          "y": 0,
+          "width": 13.375,
+          "height": 9.25,
+          "id": "7"
+        },
+        {
+          "x": 21.125,
+          "y": 9.25,
+          "width": 13.375,
+          "height": 9.25,
+          "id": "7"
+        },
+        {
+          "x": 21.125,
+          "y": 18.5,
+          "width": 4.75,
+          "height": 17.5,
+          "id": "4"
+        },
+        {
+          "x": 25.875,
+          "y": 18.5,
+          "width": 4.75,
+          "height": 17.5,
+          "id": "4"
+        }
+      ],
+      "used_area": 1227.0,
+      "total_area": 2592,
+      "efficiency_percent": 47.34
+    },
+    {
+      "bin_id": 2,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 21.125,
+          "height": 38.5,
+          "id": "8"
+        }
+      ],
+      "used_area": 813.3125,
+      "total_area": 2592,
+      "efficiency_percent": 31.38
+    },
+    {
+      "bin_id": 3,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 20.9375,
+          "height": 38.5,
+          "id": "9"
+        }
+      ],
+      "used_area": 806.09375,
+      "total_area": 2592,
+      "efficiency_percent": 31.1
+    },
+    {
+      "bin_id": 4,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 20.9375,
+          "height": 38.5,
+          "id": "9"
+        }
+      ],
+      "used_area": 806.09375,
+      "total_area": 2592,
+      "efficiency_percent": 31.1
+    }
+  ],
+  "GuillotineBssfLas": [
+    {
+      "bin_id": 1,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 21.125,
+          "height": 38.5,
+          "id": "8"
+        },
+        {
+          "x": 21.125,
+          "y": 0,
+          "width": 13.375,
+          "height": 9.25,
+          "id": "7"
+        },
+        {
+          "x": 21.125,
+          "y": 9.25,
+          "width": 13.375,
+          "height": 9.25,
+          "id": "7"
+        }
+      ],
+      "used_area": 1060.75,
+      "total_area": 2592,
+      "efficiency_percent": 40.92
+    },
+    {
+      "bin_id": 2,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 21.125,
+          "height": 38.5,
+          "id": "8"
+        }
+      ],
+      "used_area": 813.3125,
+      "total_area": 2592,
+      "efficiency_percent": 31.38
+    },
+    {
+      "bin_id": 3,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 20.9375,
+          "height": 38.5,
+          "id": "9"
+        },
+        {
+          "x": 0,
+          "y": 38.5,
+          "width": 17.5,
+          "height": 4.75,
+          "id": "4"
+        },
+        {
+          "x": 0,
+          "y": 43.25,
+          "width": 17.5,
+          "height": 4.75,
+          "id": "4"
+        }
+      ],
+      "used_area": 972.34375,
+      "total_area": 2592,
+      "efficiency_percent": 37.51
+    },
+    {
+      "bin_id": 4,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 20.9375,
+          "height": 38.5,
+          "id": "9"
+        }
+      ],
+      "used_area": 806.09375,
+      "total_area": 2592,
+      "efficiency_percent": 31.1
+    }
+  ],
+  "GuillotineBssfSlas": [
+    {
+      "bin_id": 1,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 21.125,
+          "height": 38.5,
+          "id": "8"
+        },
+        {
+          "x": 21.125,
+          "y": 0,
+          "width": 13.375,
+          "height": 9.25,
+          "id": "7"
+        },
+        {
+          "x": 21.125,
+          "y": 9.25,
+          "width": 13.375,
+          "height": 9.25,
+          "id": "7"
+        },
+        {
+          "x": 21.125,
+          "y": 18.5,
+          "width": 4.75,
+          "height": 17.5,
+          "id": "4"
+        },
+        {
+          "x": 25.875,
+          "y": 18.5,
+          "width": 4.75,
+          "height": 17.5,
+          "id": "4"
+        }
+      ],
+      "used_area": 1227.0,
+      "total_area": 2592,
+      "efficiency_percent": 47.34
+    },
+    {
+      "bin_id": 2,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 21.125,
+          "height": 38.5,
+          "id": "8"
+        }
+      ],
+      "used_area": 813.3125,
+      "total_area": 2592,
+      "efficiency_percent": 31.38
+    },
+    {
+      "bin_id": 3,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 20.9375,
+          "height": 38.5,
+          "id": "9"
+        }
+      ],
+      "used_area": 806.09375,
+      "total_area": 2592,
+      "efficiency_percent": 31.1
+    },
+    {
+      "bin_id": 4,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 20.9375,
+          "height": 38.5,
+          "id": "9"
+        }
+      ],
+      "used_area": 806.09375,
+      "total_area": 2592,
+      "efficiency_percent": 31.1
+    }
+  ],
+  "GuillotineBssfLlas": [
+    {
+      "bin_id": 1,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 21.125,
+          "height": 38.5,
+          "id": "8"
+        },
+        {
+          "x": 21.125,
+          "y": 0,
+          "width": 13.375,
+          "height": 9.25,
+          "id": "7"
+        },
+        {
+          "x": 21.125,
+          "y": 9.25,
+          "width": 13.375,
+          "height": 9.25,
+          "id": "7"
+        }
+      ],
+      "used_area": 1060.75,
+      "total_area": 2592,
+      "efficiency_percent": 40.92
+    },
+    {
+      "bin_id": 2,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 21.125,
+          "height": 38.5,
+          "id": "8"
+        }
+      ],
+      "used_area": 813.3125,
+      "total_area": 2592,
+      "efficiency_percent": 31.38
+    },
+    {
+      "bin_id": 3,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 20.9375,
+          "height": 38.5,
+          "id": "9"
+        },
+        {
+          "x": 0,
+          "y": 38.5,
+          "width": 17.5,
+          "height": 4.75,
+          "id": "4"
+        },
+        {
+          "x": 0,
+          "y": 43.25,
+          "width": 17.5,
+          "height": 4.75,
+          "id": "4"
+        }
+      ],
+      "used_area": 972.34375,
+      "total_area": 2592,
+      "efficiency_percent": 37.51
+    },
+    {
+      "bin_id": 4,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 20.9375,
+          "height": 38.5,
+          "id": "9"
+        }
+      ],
+      "used_area": 806.09375,
+      "total_area": 2592,
+      "efficiency_percent": 31.1
+    }
+  ],
+  "GuillotineBssfMaxas": [
+    {
+      "bin_id": 1,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 21.125,
+          "height": 38.5,
+          "id": "8"
+        },
+        {
+          "x": 21.125,
+          "y": 0,
+          "width": 13.375,
+          "height": 9.25,
+          "id": "7"
+        },
+        {
+          "x": 21.125,
+          "y": 9.25,
+          "width": 13.375,
+          "height": 9.25,
+          "id": "7"
+        }
+      ],
+      "used_area": 1060.75,
+      "total_area": 2592,
+      "efficiency_percent": 40.92
+    },
+    {
+      "bin_id": 2,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 21.125,
+          "height": 38.5,
+          "id": "8"
+        }
+      ],
+      "used_area": 813.3125,
+      "total_area": 2592,
+      "efficiency_percent": 31.38
+    },
+    {
+      "bin_id": 3,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 20.9375,
+          "height": 38.5,
+          "id": "9"
+        },
+        {
+          "x": 0,
+          "y": 38.5,
+          "width": 17.5,
+          "height": 4.75,
+          "id": "4"
+        },
+        {
+          "x": 0,
+          "y": 43.25,
+          "width": 17.5,
+          "height": 4.75,
+          "id": "4"
+        }
+      ],
+      "used_area": 972.34375,
+      "total_area": 2592,
+      "efficiency_percent": 37.51
+    },
+    {
+      "bin_id": 4,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 20.9375,
+          "height": 38.5,
+          "id": "9"
+        }
+      ],
+      "used_area": 806.09375,
+      "total_area": 2592,
+      "efficiency_percent": 31.1
+    }
+  ],
+  "GuillotineBssfMinas": [
+    {
+      "bin_id": 1,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 21.125,
+          "height": 38.5,
+          "id": "8"
+        },
+        {
+          "x": 21.125,
+          "y": 0,
+          "width": 13.375,
+          "height": 9.25,
+          "id": "7"
+        },
+        {
+          "x": 21.125,
+          "y": 9.25,
+          "width": 13.375,
+          "height": 9.25,
+          "id": "7"
+        },
+        {
+          "x": 21.125,
+          "y": 18.5,
+          "width": 4.75,
+          "height": 17.5,
+          "id": "4"
+        },
+        {
+          "x": 25.875,
+          "y": 18.5,
+          "width": 4.75,
+          "height": 17.5,
+          "id": "4"
+        }
+      ],
+      "used_area": 1227.0,
+      "total_area": 2592,
+      "efficiency_percent": 47.34
+    },
+    {
+      "bin_id": 2,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 21.125,
+          "height": 38.5,
+          "id": "8"
+        }
+      ],
+      "used_area": 813.3125,
+      "total_area": 2592,
+      "efficiency_percent": 31.38
+    },
+    {
+      "bin_id": 3,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 20.9375,
+          "height": 38.5,
+          "id": "9"
+        }
+      ],
+      "used_area": 806.09375,
+      "total_area": 2592,
+      "efficiency_percent": 31.1
+    },
+    {
+      "bin_id": 4,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 20.9375,
+          "height": 38.5,
+          "id": "9"
+        }
+      ],
+      "used_area": 806.09375,
+      "total_area": 2592,
+      "efficiency_percent": 31.1
+    }
+  ],
+  "GuillotineBlsfSas": [
+    {
+      "bin_id": 1,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 21.125,
+          "height": 38.5,
+          "id": "8"
+        },
+        {
+          "x": 0,
+          "y": 38.5,
+          "width": 13.375,
+          "height": 9.25,
+          "id": "7"
+        },
+        {
+          "x": 0,
+          "y": 47.75,
+          "width": 9.25,
+          "height": 13.375,
+          "id": "7"
+        },
+        {
+          "x": 13.375,
+          "y": 38.5,
+          "width": 4.75,
+          "height": 17.5,
+          "id": "4"
+        },
+        {
+          "x": 13.375,
+          "y": 56.0,
+          "width": 17.5,
+          "height": 4.75,
+          "id": "4"
+        }
+      ],
+      "used_area": 1227.0,
+      "total_area": 2592,
+      "efficiency_percent": 47.34
+    },
+    {
+      "bin_id": 2,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 21.125,
+          "height": 38.5,
+          "id": "8"
+        }
+      ],
+      "used_area": 813.3125,
+      "total_area": 2592,
+      "efficiency_percent": 31.38
+    },
+    {
+      "bin_id": 3,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 20.9375,
+          "height": 38.5,
+          "id": "9"
+        }
+      ],
+      "used_area": 806.09375,
+      "total_area": 2592,
+      "efficiency_percent": 31.1
+    },
+    {
+      "bin_id": 4,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 20.9375,
+          "height": 38.5,
+          "id": "9"
+        }
+      ],
+      "used_area": 806.09375,
+      "total_area": 2592,
+      "efficiency_percent": 31.1
+    }
+  ],
+  "GuillotineBlsfLas": [
+    {
+      "bin_id": 1,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 21.125,
+          "height": 38.5,
+          "id": "8"
+        },
+        {
+          "x": 0,
+          "y": 38.5,
+          "width": 9.25,
+          "height": 13.375,
+          "id": "7"
+        },
+        {
+          "x": 0,
+          "y": 51.875,
+          "width": 9.25,
+          "height": 13.375,
+          "id": "7"
+        },
+        {
+          "x": 9.25,
+          "y": 38.5,
+          "width": 4.75,
+          "height": 17.5,
+          "id": "4"
+        },
+        {
+          "x": 14.0,
+          "y": 38.5,
+          "width": 4.75,
+          "height": 17.5,
+          "id": "4"
+        }
+      ],
+      "used_area": 1227.0,
+      "total_area": 2592,
+      "efficiency_percent": 47.34
+    },
+    {
+      "bin_id": 2,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 21.125,
+          "height": 38.5,
+          "id": "8"
+        }
+      ],
+      "used_area": 813.3125,
+      "total_area": 2592,
+      "efficiency_percent": 31.38
+    },
+    {
+      "bin_id": 3,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 20.9375,
+          "height": 38.5,
+          "id": "9"
+        }
+      ],
+      "used_area": 806.09375,
+      "total_area": 2592,
+      "efficiency_percent": 31.1
+    },
+    {
+      "bin_id": 4,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 20.9375,
+          "height": 38.5,
+          "id": "9"
+        }
+      ],
+      "used_area": 806.09375,
+      "total_area": 2592,
+      "efficiency_percent": 31.1
+    }
+  ],
+  "GuillotineBlsfSlas": [
+    {
+      "bin_id": 1,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 21.125,
+          "height": 38.5,
+          "id": "8"
+        },
+        {
+          "x": 0,
+          "y": 38.5,
+          "width": 13.375,
+          "height": 9.25,
+          "id": "7"
+        },
+        {
+          "x": 13.375,
+          "y": 38.5,
+          "width": 13.375,
+          "height": 9.25,
+          "id": "7"
+        },
+        {
+          "x": 0,
+          "y": 47.75,
+          "width": 17.5,
+          "height": 4.75,
+          "id": "4"
+        },
+        {
+          "x": 17.5,
+          "y": 47.75,
+          "width": 17.5,
+          "height": 4.75,
+          "id": "4"
+        }
+      ],
+      "used_area": 1227.0,
+      "total_area": 2592,
+      "efficiency_percent": 47.34
+    },
+    {
+      "bin_id": 2,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 21.125,
+          "height": 38.5,
+          "id": "8"
+        }
+      ],
+      "used_area": 813.3125,
+      "total_area": 2592,
+      "efficiency_percent": 31.38
+    },
+    {
+      "bin_id": 3,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 20.9375,
+          "height": 38.5,
+          "id": "9"
+        }
+      ],
+      "used_area": 806.09375,
+      "total_area": 2592,
+      "efficiency_percent": 31.1
+    },
+    {
+      "bin_id": 4,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 20.9375,
+          "height": 38.5,
+          "id": "9"
+        }
+      ],
+      "used_area": 806.09375,
+      "total_area": 2592,
+      "efficiency_percent": 31.1
+    }
+  ],
+  "GuillotineBlsfLlas": [
+    {
+      "bin_id": 1,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 21.125,
+          "height": 38.5,
+          "id": "8"
+        },
+        {
+          "x": 0,
+          "y": 38.5,
+          "width": 9.25,
+          "height": 13.375,
+          "id": "7"
+        },
+        {
+          "x": 0,
+          "y": 51.875,
+          "width": 9.25,
+          "height": 13.375,
+          "id": "7"
+        },
+        {
+          "x": 9.25,
+          "y": 38.5,
+          "width": 4.75,
+          "height": 17.5,
+          "id": "4"
+        },
+        {
+          "x": 14.0,
+          "y": 38.5,
+          "width": 4.75,
+          "height": 17.5,
+          "id": "4"
+        }
+      ],
+      "used_area": 1227.0,
+      "total_area": 2592,
+      "efficiency_percent": 47.34
+    },
+    {
+      "bin_id": 2,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 21.125,
+          "height": 38.5,
+          "id": "8"
+        }
+      ],
+      "used_area": 813.3125,
+      "total_area": 2592,
+      "efficiency_percent": 31.38
+    },
+    {
+      "bin_id": 3,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 20.9375,
+          "height": 38.5,
+          "id": "9"
+        }
+      ],
+      "used_area": 806.09375,
+      "total_area": 2592,
+      "efficiency_percent": 31.1
+    },
+    {
+      "bin_id": 4,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 20.9375,
+          "height": 38.5,
+          "id": "9"
+        }
+      ],
+      "used_area": 806.09375,
+      "total_area": 2592,
+      "efficiency_percent": 31.1
+    }
+  ],
+  "GuillotineBlsfMaxas": [
+    {
+      "bin_id": 1,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 21.125,
+          "height": 38.5,
+          "id": "8"
+        },
+        {
+          "x": 0,
+          "y": 38.5,
+          "width": 9.25,
+          "height": 13.375,
+          "id": "7"
+        },
+        {
+          "x": 0,
+          "y": 51.875,
+          "width": 9.25,
+          "height": 13.375,
+          "id": "7"
+        },
+        {
+          "x": 9.25,
+          "y": 38.5,
+          "width": 4.75,
+          "height": 17.5,
+          "id": "4"
+        },
+        {
+          "x": 14.0,
+          "y": 38.5,
+          "width": 4.75,
+          "height": 17.5,
+          "id": "4"
+        }
+      ],
+      "used_area": 1227.0,
+      "total_area": 2592,
+      "efficiency_percent": 47.34
+    },
+    {
+      "bin_id": 2,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 21.125,
+          "height": 38.5,
+          "id": "8"
+        }
+      ],
+      "used_area": 813.3125,
+      "total_area": 2592,
+      "efficiency_percent": 31.38
+    },
+    {
+      "bin_id": 3,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 20.9375,
+          "height": 38.5,
+          "id": "9"
+        }
+      ],
+      "used_area": 806.09375,
+      "total_area": 2592,
+      "efficiency_percent": 31.1
+    },
+    {
+      "bin_id": 4,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 20.9375,
+          "height": 38.5,
+          "id": "9"
+        }
+      ],
+      "used_area": 806.09375,
+      "total_area": 2592,
+      "efficiency_percent": 31.1
+    }
+  ],
+  "GuillotineBlsfMinas": [
+    {
+      "bin_id": 1,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 21.125,
+          "height": 38.5,
+          "id": "8"
+        },
+        {
+          "x": 0,
+          "y": 38.5,
+          "width": 13.375,
+          "height": 9.25,
+          "id": "7"
+        },
+        {
+          "x": 13.375,
+          "y": 38.5,
+          "width": 13.375,
+          "height": 9.25,
+          "id": "7"
+        },
+        {
+          "x": 0,
+          "y": 47.75,
+          "width": 17.5,
+          "height": 4.75,
+          "id": "4"
+        },
+        {
+          "x": 17.5,
+          "y": 47.75,
+          "width": 17.5,
+          "height": 4.75,
+          "id": "4"
+        }
+      ],
+      "used_area": 1227.0,
+      "total_area": 2592,
+      "efficiency_percent": 47.34
+    },
+    {
+      "bin_id": 2,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 21.125,
+          "height": 38.5,
+          "id": "8"
+        }
+      ],
+      "used_area": 813.3125,
+      "total_area": 2592,
+      "efficiency_percent": 31.38
+    },
+    {
+      "bin_id": 3,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 20.9375,
+          "height": 38.5,
+          "id": "9"
+        }
+      ],
+      "used_area": 806.09375,
+      "total_area": 2592,
+      "efficiency_percent": 31.1
+    },
+    {
+      "bin_id": 4,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 20.9375,
+          "height": 38.5,
+          "id": "9"
+        }
+      ],
+      "used_area": 806.09375,
+      "total_area": 2592,
+      "efficiency_percent": 31.1
+    }
+  ],
+  "GuillotineBafSas": [
+    {
+      "bin_id": 1,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 21.125,
+          "height": 38.5,
+          "id": "8"
+        },
+        {
+          "x": 21.125,
+          "y": 0,
+          "width": 9.25,
+          "height": 13.375,
+          "id": "7"
+        },
+        {
+          "x": 21.125,
+          "y": 13.375,
+          "width": 9.25,
+          "height": 13.375,
+          "id": "7"
+        },
+        {
+          "x": 30.375,
+          "y": 0,
+          "width": 4.75,
+          "height": 17.5,
+          "id": "4"
+        }
+      ],
+      "used_area": 1143.875,
+      "total_area": 2592,
+      "efficiency_percent": 44.13
+    },
+    {
+      "bin_id": 2,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 21.125,
+          "height": 38.5,
+          "id": "8"
+        },
+        {
+          "x": 21.125,
+          "y": 0,
+          "width": 4.75,
+          "height": 17.5,
+          "id": "4"
+        }
+      ],
+      "used_area": 896.4375,
+      "total_area": 2592,
+      "efficiency_percent": 34.58
+    },
+    {
+      "bin_id": 3,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 20.9375,
+          "height": 38.5,
+          "id": "9"
+        }
+      ],
+      "used_area": 806.09375,
+      "total_area": 2592,
+      "efficiency_percent": 31.1
+    },
+    {
+      "bin_id": 4,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 20.9375,
+          "height": 38.5,
+          "id": "9"
+        }
+      ],
+      "used_area": 806.09375,
+      "total_area": 2592,
+      "efficiency_percent": 31.1
+    }
+  ],
+  "GuillotineBafLas": [
+    {
+      "bin_id": 1,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 21.125,
+          "height": 38.5,
+          "id": "8"
+        }
+      ],
+      "used_area": 813.3125,
+      "total_area": 2592,
+      "efficiency_percent": 31.38
+    },
+    {
+      "bin_id": 2,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 21.125,
+          "height": 38.5,
+          "id": "8"
+        }
+      ],
+      "used_area": 813.3125,
+      "total_area": 2592,
+      "efficiency_percent": 31.38
+    },
+    {
+      "bin_id": 3,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 20.9375,
+          "height": 38.5,
+          "id": "9"
+        },
+        {
+          "x": 0,
+          "y": 38.5,
+          "width": 9.25,
+          "height": 13.375,
+          "id": "7"
+        },
+        {
+          "x": 0,
+          "y": 51.875,
+          "width": 9.25,
+          "height": 13.375,
+          "id": "7"
+        },
+        {
+          "x": 9.25,
+          "y": 38.5,
+          "width": 4.75,
+          "height": 17.5,
+          "id": "4"
+        },
+        {
+          "x": 14.0,
+          "y": 38.5,
+          "width": 4.75,
+          "height": 17.5,
+          "id": "4"
+        }
+      ],
+      "used_area": 1219.78125,
+      "total_area": 2592,
+      "efficiency_percent": 47.06
+    },
+    {
+      "bin_id": 4,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 20.9375,
+          "height": 38.5,
+          "id": "9"
+        }
+      ],
+      "used_area": 806.09375,
+      "total_area": 2592,
+      "efficiency_percent": 31.1
+    }
+  ],
+  "GuillotineBafSlas": [
+    {
+      "bin_id": 1,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 21.125,
+          "height": 38.5,
+          "id": "8"
+        },
+        {
+          "x": 21.125,
+          "y": 0,
+          "width": 9.25,
+          "height": 13.375,
+          "id": "7"
+        },
+        {
+          "x": 21.125,
+          "y": 13.375,
+          "width": 9.25,
+          "height": 13.375,
+          "id": "7"
+        },
+        {
+          "x": 30.375,
+          "y": 0,
+          "width": 4.75,
+          "height": 17.5,
+          "id": "4"
+        }
+      ],
+      "used_area": 1143.875,
+      "total_area": 2592,
+      "efficiency_percent": 44.13
+    },
+    {
+      "bin_id": 2,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 21.125,
+          "height": 38.5,
+          "id": "8"
+        },
+        {
+          "x": 21.125,
+          "y": 0,
+          "width": 4.75,
+          "height": 17.5,
+          "id": "4"
+        }
+      ],
+      "used_area": 896.4375,
+      "total_area": 2592,
+      "efficiency_percent": 34.58
+    },
+    {
+      "bin_id": 3,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 20.9375,
+          "height": 38.5,
+          "id": "9"
+        }
+      ],
+      "used_area": 806.09375,
+      "total_area": 2592,
+      "efficiency_percent": 31.1
+    },
+    {
+      "bin_id": 4,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 20.9375,
+          "height": 38.5,
+          "id": "9"
+        }
+      ],
+      "used_area": 806.09375,
+      "total_area": 2592,
+      "efficiency_percent": 31.1
+    }
+  ],
+  "GuillotineBafLlas": [
+    {
+      "bin_id": 1,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 21.125,
+          "height": 38.5,
+          "id": "8"
+        }
+      ],
+      "used_area": 813.3125,
+      "total_area": 2592,
+      "efficiency_percent": 31.38
+    },
+    {
+      "bin_id": 2,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 21.125,
+          "height": 38.5,
+          "id": "8"
+        }
+      ],
+      "used_area": 813.3125,
+      "total_area": 2592,
+      "efficiency_percent": 31.38
+    },
+    {
+      "bin_id": 3,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 20.9375,
+          "height": 38.5,
+          "id": "9"
+        },
+        {
+          "x": 0,
+          "y": 38.5,
+          "width": 9.25,
+          "height": 13.375,
+          "id": "7"
+        },
+        {
+          "x": 0,
+          "y": 51.875,
+          "width": 9.25,
+          "height": 13.375,
+          "id": "7"
+        },
+        {
+          "x": 9.25,
+          "y": 38.5,
+          "width": 4.75,
+          "height": 17.5,
+          "id": "4"
+        },
+        {
+          "x": 14.0,
+          "y": 38.5,
+          "width": 4.75,
+          "height": 17.5,
+          "id": "4"
+        }
+      ],
+      "used_area": 1219.78125,
+      "total_area": 2592,
+      "efficiency_percent": 47.06
+    },
+    {
+      "bin_id": 4,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 20.9375,
+          "height": 38.5,
+          "id": "9"
+        }
+      ],
+      "used_area": 806.09375,
+      "total_area": 2592,
+      "efficiency_percent": 31.1
+    }
+  ],
+  "GuillotineBafMaxas": [
+    {
+      "bin_id": 1,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 21.125,
+          "height": 38.5,
+          "id": "8"
+        }
+      ],
+      "used_area": 813.3125,
+      "total_area": 2592,
+      "efficiency_percent": 31.38
+    },
+    {
+      "bin_id": 2,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 21.125,
+          "height": 38.5,
+          "id": "8"
+        }
+      ],
+      "used_area": 813.3125,
+      "total_area": 2592,
+      "efficiency_percent": 31.38
+    },
+    {
+      "bin_id": 3,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 20.9375,
+          "height": 38.5,
+          "id": "9"
+        },
+        {
+          "x": 0,
+          "y": 38.5,
+          "width": 9.25,
+          "height": 13.375,
+          "id": "7"
+        },
+        {
+          "x": 0,
+          "y": 51.875,
+          "width": 9.25,
+          "height": 13.375,
+          "id": "7"
+        },
+        {
+          "x": 9.25,
+          "y": 38.5,
+          "width": 4.75,
+          "height": 17.5,
+          "id": "4"
+        },
+        {
+          "x": 14.0,
+          "y": 38.5,
+          "width": 4.75,
+          "height": 17.5,
+          "id": "4"
+        }
+      ],
+      "used_area": 1219.78125,
+      "total_area": 2592,
+      "efficiency_percent": 47.06
+    },
+    {
+      "bin_id": 4,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 20.9375,
+          "height": 38.5,
+          "id": "9"
+        }
+      ],
+      "used_area": 806.09375,
+      "total_area": 2592,
+      "efficiency_percent": 31.1
+    }
+  ],
+  "GuillotineBafMinas": [
+    {
+      "bin_id": 1,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 21.125,
+          "height": 38.5,
+          "id": "8"
+        },
+        {
+          "x": 21.125,
+          "y": 0,
+          "width": 9.25,
+          "height": 13.375,
+          "id": "7"
+        },
+        {
+          "x": 21.125,
+          "y": 13.375,
+          "width": 9.25,
+          "height": 13.375,
+          "id": "7"
+        },
+        {
+          "x": 30.375,
+          "y": 0,
+          "width": 4.75,
+          "height": 17.5,
+          "id": "4"
+        }
+      ],
+      "used_area": 1143.875,
+      "total_area": 2592,
+      "efficiency_percent": 44.13
+    },
+    {
+      "bin_id": 2,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 21.125,
+          "height": 38.5,
+          "id": "8"
+        },
+        {
+          "x": 21.125,
+          "y": 0,
+          "width": 4.75,
+          "height": 17.5,
+          "id": "4"
+        }
+      ],
+      "used_area": 896.4375,
+      "total_area": 2592,
+      "efficiency_percent": 34.58
+    },
+    {
+      "bin_id": 3,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 20.9375,
+          "height": 38.5,
+          "id": "9"
+        }
+      ],
+      "used_area": 806.09375,
+      "total_area": 2592,
+      "efficiency_percent": 31.1
+    },
+    {
+      "bin_id": 4,
+      "width": 36,
+      "height": 72,
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 20.9375,
+          "height": 38.5,
+          "id": "9"
+        }
+      ],
+      "used_area": 806.09375,
+      "total_area": 2592,
+      "efficiency_percent": 31.1
+    }
+  ]
+}

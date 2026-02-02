@@ -6,6 +6,9 @@ type Props = {
   width?: number
 }
 export default function ItemMedida({ label, input, setInput, inputType = 'text', width = 80 }: Props) {
+
+  
+
   return (
     <div className="flex flex-col gap-1">
       <label htmlFor={label} className="font-bold text-[15px]">{label}</label>
