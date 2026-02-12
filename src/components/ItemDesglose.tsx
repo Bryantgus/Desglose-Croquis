@@ -7,7 +7,7 @@ import config from '../assets/Icons/Settings.svg'
 import back from '../assets/Icons/back.svg'
 import { useLocation } from "react-router-dom";
 import Caracteristicas from "./Caracteristicas";
-
+import deleted from '../assets/Icons/delete.svg'
 type Props = {
   id: number,
   modeS: 'editar' | 'ver'
@@ -17,6 +17,7 @@ export default function ItemDesglose({ id, modeS = 'editar' }: Props) {
   const location = useLocation();
   const [mode, setMode] = useState<'editar' | 'ver'>(modeS)
   const perfilSelected = useData(s => s.ventanaPerfilSelected)
+  const deleteV = useData(s => s.deleteV)
   const { ancho, alto, etiqueta, caracteristicas } = useData(
     useShallow((s) => {
       const v = perfilSelected ? s[perfilSelected].find(i => i.id === id) : null;
@@ -43,20 +44,16 @@ export default function ItemDesglose({ id, modeS = 'editar' }: Props) {
 
   const setVentana = useData(s => s.setVentana)
 
-  // Regex para validar medidas completas en pulgadas
   const validateMedida = (value: string): boolean => {
     const regex = /^\d+(\s(1|3|5|7|9|11|13|15)\/16|\s(1|3|5|7)\/8|\s(1|3)\/4|\s1\/2)?$/;
     console.log('Validando:', value, 'Resultado:', regex.test(value));
     return regex.test(value);
   }
 
-  // Regex más permisivo para permitir escribir mientras se teclea
   const isValidWhileTyping = (value: string): boolean => {
-    // Permite: números, UN solo espacio máximo, /, y vacío
-    // NO permite doble espacio ni espacio al inicio
+
     const typingRegex = /^(\d+(\s(\d+)?(\/(\d+)?)?)?)?$/;
 
-    // Validación adicional: no permitir doble espacio
     if (value.includes('  ')) return false;
 
     return typingRegex.test(value);
@@ -67,15 +64,10 @@ export default function ItemDesglose({ id, modeS = 'editar' }: Props) {
     if (!perfilSelected) return;
 
     const propertyName = label.toLowerCase();
-
-    // Para etiqueta, actualizar directamente
     if (label === 'Etiqueta') {
       setVentana(perfilSelected, id, { [propertyName]: value })
       return;
     }
-
-    // Para medidas (Ancho/Alto)
-    // Permitir escribir si está en proceso de escritura
     if (isValidWhileTyping(value) || value === '') {
       setVentana(perfilSelected, id, { [propertyName]: value })
     }
@@ -103,9 +95,12 @@ export default function ItemDesglose({ id, modeS = 'editar' }: Props) {
 
             <p className={`mb-1 text-[13px] font-black ${mode === 'editar' ? 'text-[#e5f9fd]' : 'text-black'}`}>P:[{perfil}] C:[{cristal}]</p>
 
-            {location.pathname !== '/editar-desglose' &&
+            {location.pathname !== '/editar-desglose' ?
               <img src={mode === 'editar' ? back : config} alt='settings' className="w-8 h-8 cursor-pointer"
-                onClick={switchMode} />}
+                onClick={switchMode} /> 
+              : <img src={deleted} alt='settings' className="w-8 h-8 cursor-pointer"
+                onClick={() => deleteV(perfilSelected!, id)} />
+              }
           </div>
         </div>
       </div>
@@ -120,7 +115,6 @@ export default function ItemDesglose({ id, modeS = 'editar' }: Props) {
         <Caracteristicas id={id} />
       }
 
-      {/* Indicador visual de validación (opcional) */}
       {mode === 'editar' && ancho && !validateMedida(ancho) && (
         <p className="text-red-500 text-xs mt-1">⚠️ Formato de ancho inválido</p>
       )}

@@ -10,10 +10,12 @@ type ColoresPerfilOptionsType = {
   color: string
   label: string
 }
+
 export default function Caracteristicas({ id }: Props) {
   const perfilSelected = useData(s => s.ventanaPerfilSelected)
   const [showColorPerfil, setShowColorPerfil] = useState(false)
   const [showTipoCristal, setShowTipoCristal] = useState(false)
+  const [showVias, setShowVias] = useState(false)
 
   const ventana = useData(s =>
     perfilSelected ? s[perfilSelected].find(v => v.id === id) : null
@@ -22,7 +24,7 @@ export default function Caracteristicas({ id }: Props) {
 
   if (!ventana) return null
 
-  const { colorPerfil, colorCristal } = ventana.caracteristicas
+  const { colorPerfil, colorCristal, vias } = ventana.caracteristicas
 
   const coloresPerfilOptions: ColoresPerfilOptionsType[] = [
     { value: 'blanco', color: 'white', label: 'Blanco' },
@@ -32,6 +34,7 @@ export default function Caracteristicas({ id }: Props) {
   ]
 
   const tiposCristalOptions = ['Natural L.', 'Natural M.', 'Bronze L.', 'Bronze M.']
+  const viasOptions = ['2V', '3V']
 
   const colorPerfilFormated: string = colorPerfil === 'blanco' ? 'white' :
     colorPerfil === 'negro' ? 'black' :
@@ -60,14 +63,33 @@ export default function Caracteristicas({ id }: Props) {
     setShowTipoCristal(false)
   }
 
+  const handleViasChange = (newVias: string) => {
+    setVentana(perfilSelected!, id, {
+      ...ventana,
+      caracteristicas: {
+        ...ventana.caracteristicas,
+        vias: newVias
+      }
+    })
+    setShowVias(false)  
+  }
+
   const toggleColorPerfil = () => {
     setShowColorPerfil(!showColorPerfil)
-    setShowTipoCristal(false) // Cierra el otro selector
+    setShowTipoCristal(false)
+    setShowVias(false)
   }
 
   const toggleTipoCristal = () => {
     setShowTipoCristal(!showTipoCristal)
-    setShowColorPerfil(false) // Cierra el otro selector
+    setShowColorPerfil(false)
+    setShowVias(false)
+  }
+
+  const toggleVias = () => {
+    setShowVias(!showVias)
+    setShowColorPerfil(false)
+    setShowTipoCristal(false)
   }
 
   return (
@@ -126,6 +148,35 @@ export default function Caracteristicas({ id }: Props) {
                   onClick={() => handleTipoCristalChange(tipo)}
                 >
                   {tipo}
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
+      </div>
+
+      {/* Vías */}
+      <div className="flex justify-between items-center">
+        <div className="flex items-center justify-center">
+          <p className="font-bold text-[15px]">Vías: </p>
+        </div>
+        <div className="w-[83.09px] flex justify-center relative">
+          <p 
+            className="font-black border border-[#474747] rounded-sm text-[12px] p-1 cursor-pointer"
+            onClick={toggleVias}
+          >
+            {vias}
+          </p>
+          
+          {showVias && (
+            <div className="absolute top-7 right-0 bg-white border-2 border-[#474747] rounded-md shadow-lg z-10 min-w-16">
+              {viasOptions.map(via => (
+                <div
+                  key={via}
+                  className="px-3 py-2 cursor-pointer hover:bg-gray-100 text-sm text-center"
+                  onClick={() => handleViasChange(via)}
+                >
+                  {via}
                 </div>
               ))}
             </div>

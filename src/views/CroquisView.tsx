@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import Croquis from '../mockData/Croquis.json';
 import logo from '/Logo.svg'
 import Btn from '../components/Btn'
+import useData from '../globalContext/useData';
 
 type Rectangle = {
   id: string;
@@ -32,6 +33,8 @@ const gcd = (a: number, b: number): number => {
 };
 
 export default function CroquisView() {
+  const idSelected = useData((state) => state.idSelected);
+
   const [allData] = useState<PackingData>(Croquis);
   const [currentAlgo, setCurrentAlgo] = useState<string>(() => {
     return Object.keys(Croquis).length > 0 ? Object.keys(Croquis)[0] : '';
@@ -55,11 +58,11 @@ export default function CroquisView() {
   const getFilteredAlgorithms = useCallback(() => {
     const minContainers = getMinContainers();
     const algorithms = Object.entries(allData);
-    
+
     if (showAll) {
       return algorithms;
     }
-    
+
     return algorithms.filter(([, bins]) => bins.length === minContainers);
   }, [allData, showAll, getMinContainers]);
 
@@ -136,9 +139,16 @@ export default function CroquisView() {
     }
   }, [currentAlgo, renderBins]);
 
+  useEffect(() => {
+    if (idSelected < 0) {
+      navigate('/')
+    }
+  }, [idSelected, navigate])
+
   const handlePrint = () => {
     window.print();
   };
+
 
   const filteredAlgorithms = getFilteredAlgorithms();
   const hiddenCount = Object.keys(allData).length - filteredAlgorithms.length;
@@ -191,7 +201,7 @@ export default function CroquisView() {
           >
             Imprimir
           </button>
-          
+
           {hiddenCount > 0 && (
             <button
               onClick={() => setShowAll(!showAll)}

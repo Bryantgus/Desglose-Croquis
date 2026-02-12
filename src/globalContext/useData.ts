@@ -14,7 +14,7 @@ export type ventana = {
     tipoPerfil: TipoPerfil
     colorPerfil: string
     colorCristal: string
-    rieles: number
+    vias: string
   }
 }
 
@@ -28,6 +28,7 @@ type DataState = {
   setVentana: (perfil: keyof Pick<DataState, 'p65' | 'tradicional' | 'p92'>, id: number, newData: Partial<ventana>) => void
   setVentanaPerfilSelected: (perfil: TipoPerfil) => void
   addVentana: (perfil: TipoPerfil, cantidad: number) => void
+  deleteV: (perfil: TipoPerfil, id: number) => void
 }
 
 
@@ -61,7 +62,7 @@ const useData = create<DataState>((set) => ({
   },
   addVentana: (perfil, cantidad) => {
     set((state) => {
-      const currentArray = state[perfil]; // ← Aquí selecciona el array correcto
+      const currentArray = state[perfil];
       const lastId = currentArray.length > 0
         ? Math.max(...currentArray.map(v => v.id))
         : 0;
@@ -72,15 +73,37 @@ const useData = create<DataState>((set) => ({
         ancho: '',
         alto: '',
         caracteristicas: {
-          tipoPerfil: perfil, // ← También asigna el tipo correcto
+          tipoPerfil: perfil,
           colorPerfil: 'blanco',
           colorCristal: 'Natural L',
-          rieles: 2
+          vias: '2v'
         }
       }));
 
       return {
-        [perfil]: [...currentArray, ...newVentanas] // ← Actualiza solo el array correspondiente
+        [perfil]: [...currentArray, ...newVentanas]
+      };
+    });
+  },
+
+  deleteV: (perfil, id) => {
+    set((state) => {
+      const filtered = state[perfil].filter(v => v.id !== id);
+
+      const reindexed = filtered.map((v, index) => {
+        const newId = index + 1;
+
+        const isDefaultLabel = /^V-\d+$/i.test(v.etiqueta);
+
+        return {
+          ...v,
+          id: newId,
+          etiqueta: isDefaultLabel ? `V-${newId}` : v.etiqueta
+        };
+      });
+
+      return {
+        [perfil]: reindexed
       };
     });
   }

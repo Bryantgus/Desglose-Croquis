@@ -10,7 +10,7 @@ export const MOCK_TRADICIONAL: ventana[] = [
       tipoPerfil: 'tradicional',
       colorPerfil: "blanco",
       colorCristal: 'Natural L',
-      rieles: 2
+      vias: '2v'
     }
   }
 ]
@@ -25,7 +25,7 @@ export const MOCK_P92: ventana[] = [
       tipoPerfil: 'p92',
       colorPerfil: "roble",
       colorCristal: 'Bronze L',
-      rieles: 2
+      vias: '2v'
     }
   }
 ];
@@ -40,7 +40,7 @@ export const MOCK_P65: ventana[] = [
       tipoPerfil: 'p65',
       colorPerfil: "caoba",
       colorCristal: 'Natural M',
-      rieles: 2
+      vias: '2v'
     }
   },
   {
@@ -52,7 +52,7 @@ export const MOCK_P65: ventana[] = [
       tipoPerfil: 'p65',
       colorPerfil: "negro",
       colorCristal: 'Natural M',
-      rieles: 2
+      vias: '2v'
     }
   }
 ];

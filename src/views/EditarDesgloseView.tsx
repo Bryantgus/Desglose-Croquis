@@ -3,8 +3,11 @@ import Btn from '../components/Btn'
 import { useNavigate } from 'react-router-dom';
 import useData, { type ventana } from '../globalContext/useData';
 import ItemDesglose from '../components/ItemDesglose';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 export default function EditarDesgloseView() {
+
+  const idSelected = useData((state) => state.idSelected);
+
   const [cantidad, setCantidad] = useState(1)
   const store = useData();
   const { p65, tradicional, p92 } = useData()
@@ -32,6 +35,11 @@ export default function EditarDesgloseView() {
     navigate(route)
   }
 
+  useEffect(() => {
+    if(idSelected < 0) {
+      navigate('/')
+    }
+  }, [idSelected, navigate])
 
   return (
     <div>

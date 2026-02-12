@@ -3,7 +3,7 @@ import fecha from '../assets/Icons/Date.svg'
 import up from '../assets/Icons/Up.svg'
 // import down from '../assets/Icons/Down.svg'
 import MOCK_REGISTROS, { type RegistroData } from '../mockData/Registro'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import Registro from '../components/Registro'
 import Btn from '../components/Btn'
 import useData from '../globalContext/useData'
@@ -16,14 +16,11 @@ export default function MainPage() {
   const setId = useData((state) => state.setId);
   const [labelError, setLabelError] = useState(false)
   const navigate = useNavigate();
+  // const dataFiltered = useState<RegistroData | null>(null)
 
   const handleSetId = (id: number) => {
     setId(id)
   }
-
-  useEffect(() => {
-    console.log(idSelected);
-  }, [idSelected])
 
   const openRegistro = () => {
     if (idSelected === -1) {
